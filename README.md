@@ -17,6 +17,7 @@ This is a web application built with Laravel framework that functions as an onli
 -   Laravel: A powerful PHP framework used for developing the web application.
 -   MySQL: The database management system used to store product, user, and order information.
 -   HTML, CSS, and JavaScript: Front-end technologies used for designing and enhancing the user interface.
+-   Fatoora payment getway
 -   Git: Version control system used for tracking changes and collaborating on the project.
 
 ## Installation
@@ -28,7 +29,7 @@ To run this project locally, make sure you have PHP, Composer, and MySQL install
 3. Install dependencies: `composer install`
 4. Create a copy of the `.env.example` file and rename it to `.env`
 5. Generate an application key: `php artisan key:generate`
-6. import the database in the 'Mysql Database' folder.
+6. import the database in the `Mysql Database` folder.
 7. Configure your database connection details in the `.env` file
 8. make a virtual host with `admin.market.local` for admin and `market.local` for users r you can change this links in route file.
 9. Start the development server: `php artisan serve`
